@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - completing the source code in orde to print where the number is negative or positive
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -11,11 +11,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
+	if (n > 0)
+	{
 		printf("%d is positive\n", n);
-	if (n==0)
+	}
+	else if (n == 0)
+	{
 		printf("%d is zero\n", n);
-	if (n<0)
+	}
+	else (n < 0)
+	{
 		printf("%d is is negative\n", n);
+	}
 	return (0);
 }
