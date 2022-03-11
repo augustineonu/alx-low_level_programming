@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - completing the source code in orde to print where the number is negative or positive
+ * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -15,13 +16,13 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
+	{
+		printf("%d is negtive\n", n);
+	}
+	else 
 	{
 		printf("%d is zero\n", n);
-	}
-	else (n < 0)
-	{
-		printf("%d is is negative\n", n);
 	}
 	return (0);
 }
