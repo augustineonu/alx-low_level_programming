@@ -1,6 +1,7 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*
+/**
  * main - completing the source code in orde to print where the number is negative or positive
  * Return: 0
  */
