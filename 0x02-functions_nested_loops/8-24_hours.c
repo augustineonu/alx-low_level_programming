@@ -1,23 +1,23 @@
 #include <unistd.h>
 #include "main.h"
 /**
- *print_last_digit - last digit of number
- *@n: input.
+ *jack_bauer -  count down 24hrs
  *
- *Return: last digit of number.
+ *Return: void.
  */
-int print_last_digit(int n)
+void  jack_bauer(void)
 {
-int lastDig;
-if (n >= 0)
+int hour, minute;
+for (hour = 0; hour <= 23; hour++)
 {
-lastDig = n % 10;
-}
-else
+for (minute = 0; minute <= 59; minute++)
 {
-lastDig = (n % 10) * -1;
+_putchar('0' + (hour / 10));
+_putchar('0' + (hour % 10));
+_putchar(':');
+_putchar('0' + (minute / 10));
+_putchar('0' + (minute % 10));
+_putchar('\n');
 }
-_putchar('0' + lastDig);
-return (lastDig);
 }
-
+}
