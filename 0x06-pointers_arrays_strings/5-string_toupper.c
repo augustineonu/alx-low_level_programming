@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *string_toupper - changes the letters of the string to uppercase
+ * string_toupper - changes the letters of the string to uppercase
  * @c: string pointer
  * Return: c
  */
@@ -17,5 +17,5 @@ char *string_toupper(char *c)
 			c[a] -= 32;
 		}
 	}
-	return (c); 
+	return (c);
 }
