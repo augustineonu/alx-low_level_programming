@@ -6,7 +6,7 @@
  *@src: the source string
  *
  * Return: a pointer to the resulting dest
- * */
+ */
 
 char *_strcat(char *dest, char *src)
 {
