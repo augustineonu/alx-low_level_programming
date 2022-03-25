@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main - a function that prints an integer
+ * print_number - a function that prints an integer
+ * @n: numbers
  *
- * Return: Always 0.
  */
 
 void print_number(int n)
 {
 	unsigned int n1;
-	
+
 	if (n < 0)
 	{
 		n1 = -n;
