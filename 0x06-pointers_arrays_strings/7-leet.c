@@ -2,7 +2,8 @@
 
 /**
  * leet - a function that encodes a string into a leet
- *
+ * @s: characters in an array
+ * Return: s
  */
 
 char *leet(char *s)
